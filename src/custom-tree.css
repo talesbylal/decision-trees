@@ -1,0 +1,22 @@
+.node__root > circle {
+    fill: red;
+  }
+  
+  .node__branch > circle {
+    fill: yellow;
+  }
+  
+  .node__leaf > circle {
+    fill: green;
+  }
+
+.rd3t-link:nth-child(odd) {
+    stroke: green;
+}
+.rd3t-link:nth-child(even) {
+    stroke: red;
+}
+.rd3t-svg{
+    overflow: unset;
+    height: 100vh;
+}
